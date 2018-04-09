@@ -2,5 +2,14 @@
 <html>
 <body>
 <img src="https://i.imgur.com/LARAi7B.jpg" />
+  <button class="button">Dont Click this</button>
+  <script type="text/javascript">
+   $(window).load(function() {
+      $('.button').raptorize({
+        'enterOn' : 'click', //timer, konami-code, click
+        'delayTime' : 5000 //time before raptor attacks on timer mode
+   });
+});
+</script>
 </body>
 </html
